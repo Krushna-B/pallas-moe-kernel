@@ -2,3 +2,4 @@ jax==0.8.0
 jaxlib==0.8.0
 numpy
 pandas
+matplotlib

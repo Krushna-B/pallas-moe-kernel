@@ -32,6 +32,8 @@ W_down: (E, F, D)      Y = H @ W_down[e]          accumulated over BF chunks
 | `src/analysis.py` | Roofline & memory-traffic model: arithmetic intensity, best/worst-case HBM traffic, shared-memory estimates per block config |
 | `tests/check_correctness.py` | Element-wise comparison against `ragged_dot` reference (abs/rel/L2 error, worst-entry report) |
 | `profiling/profile_kernels.py` | Traces fused vs. reference with `jax.profiler` (perfetto/xprof) |
+| `src/ragged_moe_speedup_experiment.py` | Self-contained sweep harness: structured/full-grid case generation, 4 routing patterns, memory-safe preflight, resume, correctness gates, ideal-bandwidth-model predictions, summary tables + 9 plot families. Version-portable (compat layer for the post-0.8 Pallas memory-op API) |
+| `notebooks/ragged_moe_colab_runner.ipynb` | Runs the sweep on a Colab GPU|
 
 ## Run
 
