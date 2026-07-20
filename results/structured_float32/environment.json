@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-07-20T16:14:55.942777+00:00",
+  "python_version": "3.12.13 (main, Mar  4 2026, 09:23:07) [GCC 11.4.0]",
+  "platform": "Linux-6.6.122+-x86_64-with-glibc2.35",
+  "jax_version": "0.7.2",
+  "jaxlib_version": "0.7.2",
+  "jax_backend": "gpu",
+  "devices": [
+    {
+      "id": 0,
+      "platform": "gpu",
+      "device_kind": "NVIDIA L4",
+      "process_index": 0
+    }
+  ]
+}

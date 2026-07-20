@@ -1,0 +1,73 @@
+{
+  "M_values": [
+    128,
+    256,
+    512,
+    1024,
+    4096,
+    16384,
+    65536,
+    131072
+  ],
+  "D_values": [
+    64,
+    128,
+    256,
+    512,
+    1024
+  ],
+  "F_values": [
+    256,
+    512,
+    1024,
+    2048,
+    4096
+  ],
+  "E_values": [
+    1,
+    2,
+    4,
+    8,
+    16
+  ],
+  "BM_values": [
+    8,
+    16,
+    32,
+    64,
+    128
+  ],
+  "BF_values": [
+    16,
+    32,
+    64,
+    128
+  ],
+  "group_patterns": [
+    "balanced",
+    "mild",
+    "skewed",
+    "one_dominant"
+  ],
+  "baseline_M": 16384,
+  "baseline_D": 128,
+  "baseline_F": 512,
+  "baseline_E": 4,
+  "mode": "structured",
+  "warmup": 3,
+  "iterations": 10,
+  "seed": 0,
+  "shuffle_cases": true,
+  "interpret": false,
+  "input_dtype": "float32",
+  "l2_relative_error_tolerance": 0.0001,
+  "normalized_max_error_tolerance": 0.001,
+  "max_estimated_problem_memory_gib": 13.496484375,
+  "peak_compute_tflops": 303.3,
+  "peak_bandwidth_gbps": 300,
+  "shared_memory_limit_bytes": null,
+  "resume": true,
+  "clear_jax_caches_between_problem_shapes": true,
+  "max_by_shape_plots": 100,
+  "max_cases": null
+}
